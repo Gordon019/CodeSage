@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head><title>CodeSage</title></head>
+<body>
+<h1>CodeSage Assistant</h1>
+<form method="post">
+    <textarea name="code" rows="10" cols="50"></textarea><br>
+    <button type="submit">Submit</button>
+</form>
+{% if original %}
+<h2>Original Code</h2><pre>{{ original }}</pre>
+<h2>Fixed Code</h2><pre>{{ fixed }}</pre>
+<h2>Generated Tests</h2><pre>{{ tests }}</pre>
+{% endif %}
+</body>
+</html>
