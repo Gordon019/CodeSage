@@ -1,13 +1,13 @@
-# CodeSage Assistant 🧠💡
+# CodeSage Assistant
 
 **CodeSage** is an intelligent assistant for Python developers. It uses OpenAI GPT models to help you:
-- ✅ Automatically **fix broken code**
-- 🧪 Generate **pytest-style unit tests**
-- 🧠 (Optional) Provide **function analysis summaries**
+-  Automatically **fix broken code**
+-  Generate **pytest-style unit tests**
+-  (Optional) Provide **function analysis summaries**
 
 ---
 
-## 📸 Demo Screenshots
+##  Demo Screenshots
 
 | Input | Processing | Output |
 |-------|------------|--------|
@@ -15,7 +15,7 @@
 
 ---
 
-## 🚀 Features
+##  Features
 
 - **Fixer**: Auto-corrects broken Python functions using GPT.
 - **Tester**: Generates `pytest`-ready unit tests based on your code.
@@ -23,7 +23,7 @@
 
 ---
 
-## 🛠️ How to Run Locally
+##  How to Run Locally
 
 1. Clone the repository:
    ```bash
@@ -50,7 +50,7 @@
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 CodeSage/
@@ -70,7 +70,7 @@ CodeSage/
 
 ---
 
-## ✅ Example Output
+##  Example Output
 
 ```python
 # Fixed Code
@@ -85,6 +85,6 @@ def test_greet():
 
 ---
 
-## 📜 License
+##  License
 
 MIT License © 2025 Gordon Gao
